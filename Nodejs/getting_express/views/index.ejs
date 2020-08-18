@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<body>
+    <h1> You searched For: <%= data.userQuery %></h1>
+    <ul>
+        <%=data.searchResults.forEach(result=>{ %>
+            <li><%= result %></li>
+            <%}); %>
+    </ul>
+</body>
